@@ -1,4 +1,5 @@
 #=================================================================================================#
+# TITLE: New User Creation (NUC, pronounced either as nuck or nook.)
 # CREATOR: Ellis Svannish
 # PURPOSE: Simplify the user creation process. Creates an Active Directory account, instructs technician 
 #           to create mailbox in Exchange, and script awaits attachment of mailbox and automatically 
@@ -8,12 +9,13 @@
 # REQUIREMENTS: Admin access to Active Directory, ActiveDirectory PowerShell module, and modification 
 #               of custom variables. See "UPDATE CUSTOM VARIABLES HERE" header below.
 # FEATURES:
-#       - Will check if a username is already taken before creation.
+#       - Will check if a username is already taken before creation. (Refer to the :) or ): )
 #       - Form options are responsive based on the OU you choose.
 #       - Will automatically assign email domain, description, login script, and groups based on CSV.
 #       - Compatible with middle name initials.
 #       - Compatible with names that have spaces.
-#       - Random password generator based on common dictionary words.
+#       - Random password generator based on common dictionary words. Includes a button to
+#		regenerate a new password.
 #       - Creates network file share for the user using their M: drive.
 #       - Automatically detects mail changes to account and corrects values to desired domain/name.
 #=================================================================================================#
