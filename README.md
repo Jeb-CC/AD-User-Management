@@ -10,4 +10,5 @@ Some scripts in this repository were created with very specific processes in min
 **New User Creation Script (NUC)**
 
 Simplify the user creation process. Creates an Active Directory account, instructs technician to create mailbox in Exchange, and script awaits attachment of mailbox and automatically adjusts account mail values to meet domain requirements.
+
 ![Example of NUC](New%20User%20Creation/NUCExample.png?raw=true "Example of NUC")
