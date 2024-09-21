@@ -608,7 +608,7 @@ $accessrule = new-object System.Security.AccessControl.FileSystemAccessRule $per
 $acl.SetAccessRule($accessrule)
 $acl | Set-ACL -path $homedirpath
 
-#Sets up more M drive stuff. I think Damon created this section so I have no idea what it does step by step.
+#Additional M drive setup including permissions.
 $Computer = $servername
 $Class = "Win32_Share"
 $Method = "Create"
